@@ -12,6 +12,16 @@ Begin
 End
 Go
 
+If Object_Id('Sexo') Is Null 
+Begin
+	Create Table Sexo 
+	(
+		 SexoId		Int Identity(1,1) Constraint PK_Sexo_SexoId Primary Key
+		,Descricao	Varchar(30) Not Null
+	)
+End
+Go
+
 If Object_Id('Funcionario') Is Null 
 Begin
 	Create Table Funcionario 
@@ -21,10 +31,10 @@ Begin
 		,Sobrenome			Varchar(128)	Not Null
 		,DataNascimento		Date			Not Null
 		,Email				Varchar(100)		Null
-		,Sexo				Varchar(30)		Not Null
+		,Idade				Int				Not Null
 		,Ativo				Bit				Not Null
 		,HabilidadeId		Int				Not Null
-		,Constraint Habilidade_Fk Foreign Key (HabilidadeId) References Habilidade(HabilidadeId)
+		,SexoId				Int				Not Null
 	)
 End
 Go

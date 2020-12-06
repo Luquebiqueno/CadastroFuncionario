@@ -11,9 +11,11 @@ namespace CadastroFuncionario.Domain.Interfaces.Service
                                     where TContext : IUnitOfWork<TContext>
     {
         IEnumerable<Funcionario> GetFuncionarioByIdade(int idade);
-        IEnumerable<Funcionario> GetFuncionarioBySexo(string sexo);
+        IEnumerable<Funcionario> GetFuncionarioBySexo(Sexo sexo);
         IEnumerable<Funcionario> GetFuncionarioByHabilidade(Habilidade habilidade);
         IEnumerable<Funcionario> GetFuncionarioByNome(string nome);
         public Funcionario UpdateFuncionario(int id, Funcionario entity);
+        public void AtivarFuncionario(int id);
+        public void InativarFuncionario(int id);
     }
 }

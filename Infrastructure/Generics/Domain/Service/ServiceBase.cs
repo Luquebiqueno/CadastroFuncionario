@@ -17,8 +17,6 @@ namespace Generics.Domain.Service
         }
         public virtual TEntity Create(TEntity entity)
         {
-            entity.AtualizarDataCadastro();
-            entity.AtualizarUsuarioCadastro(entity.UsuarioCadastro);
             _repository.Create(entity);
 
             return entity;
@@ -32,8 +30,6 @@ namespace Generics.Domain.Service
 
         public virtual TEntity Update(TEntity entity)
         {
-            entity.AtualizarDataAlteracao();
-            entity.AtualizarUsuarioAlteracao(entity.UsuarioAlteracao);
             _repository.Update(entity);
 
             return entity;

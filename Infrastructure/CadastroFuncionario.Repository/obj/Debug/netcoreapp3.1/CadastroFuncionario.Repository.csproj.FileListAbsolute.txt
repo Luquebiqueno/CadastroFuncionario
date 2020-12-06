@@ -1,0 +1,14 @@
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\CadastroFuncionario.Repository.deps.json
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\CadastroFuncionario.Repository.dll
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\CadastroFuncionario.Repository.pdb
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\CadastroFuncionario.Domain.dll
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\Generics.dll
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\CadastroFuncionario.Domain.pdb
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\bin\Debug\netcoreapp3.1\Generics.pdb
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.csprojAssemblyReference.cache
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.AssemblyInfoInputs.cache
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.AssemblyInfo.cs
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.csproj.CoreCompileInputs.cache
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.csproj.CopyComplete
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.dll
+C:\Users\luquebiqueno.pires\Documents\Luquebiqueno\Projetos\CadastroFuncionario\Infrastructure\CadastroFuncionario.Repository\obj\Debug\netcoreapp3.1\CadastroFuncionario.Repository.pdb

@@ -14,14 +14,15 @@ namespace CadastroFuncionario.Domain.Entities
         public string Sobrenome { get; set; }
         public DateTime DataNascimento { get; set; }
         public string Email { get; set; }
-        public string Sexo { get; set; }
+        public int Idade { get; set; }
+        public Sexo Sexo { get; set; }
         public Habilidade Habilidade { get; set; }
 
         #endregion
 
         #region [ Construtores ]
 
-        public Funcionario(string nome, string sobrenome, DateTime dataNascimento, string sexo, Habilidade habilidade)
+        public Funcionario(string nome, string sobrenome, DateTime dataNascimento, Sexo sexo, Habilidade habilidade)
         {
             this.AtualizarNome(nome);
             this.AtualizarSobrenome(sobrenome);
@@ -37,7 +38,7 @@ namespace CadastroFuncionario.Domain.Entities
         public void AtualizarNome(string nome) => this.Nome = nome;
         public void AtualizarSobrenome(string sobrenome) => this.Sobrenome = sobrenome;
         public void AtualizarDataNascimento(DateTime dataNascimento) => this.DataNascimento = dataNascimento;
-        public void AtualizarSexo(string sexo) => this.Sexo = sexo;
+        public void AtualizarSexo(Sexo sexo) => this.Sexo = sexo;
         public void AtualizarHabilidade(Habilidade habilidade) => this.Habilidade = habilidade;
         public void AtualizarEmail(string email) => this.Email = email;
 

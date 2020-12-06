@@ -88,8 +88,6 @@ namespace Generics.Infra.Repository
                 {
                     var result = _dbSet.Attach(entity);
                     result.State = EntityState.Modified;
-                    result.Property(x => x.UsuarioCadastro).IsModified = false;
-                    result.Property(x => x.DataCadastro).IsModified = false;
 
                     return entity;
                 }
