@@ -35,6 +35,21 @@ namespace CadastroFuncionario.Api.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
+        //[Authorize("Bearer")]
+        public IActionResult GetFuncionarioById(int id)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var funcionario = _application.GetById(id);
+            var funcionarioMapper = _mapper.Map<FuncionarioEditDto>(funcionario);
+            if (funcionarioMapper == null)
+                return NotFound();
+            return new ObjectResult(funcionarioMapper);
+        }
+
+        [HttpGet]
         [Route("FuncionarioByHabilidade/{habilidade}")]
         public IEnumerable<FuncionarioDto> GetFuncionarioByHabilidade(Habilidade habilidade)
         {
