@@ -1,0 +1,69 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.main.relatorio {
+    max-width: 1100px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.filtro input {
+    margin-right: 10px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid #000;
+}
+.filtro {
+    margin: 0 auto;
+}
+.filtro h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.filtro .filtrarbtn{
+    background-color: blue;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.acoes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.acoes button{
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+.acoes img{
+    cursor: pointer;
+}
+
+.button1 {background-color: #2904f7;}
+.button2 {background-color: #f70808;}

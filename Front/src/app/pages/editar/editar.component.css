@@ -1,0 +1,35 @@
+form#formulario {
+    margin-top: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form#formulario > h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+form#formulario > section{
+    margin-bottom: 15px;
+}
+form#formulario > section input[type='text'],
+form#formulario > section input[type='email'] {
+    width: 100%;
+}
+form#formulario > section input[type="radio"] {
+    margin-right: 5px;
+}
+
+form#formulario .cadastrar {
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}

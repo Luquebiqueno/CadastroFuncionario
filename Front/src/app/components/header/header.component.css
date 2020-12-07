@@ -1,0 +1,26 @@
+.header {
+    background: #3b5998;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a.logo {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header nav.navbar {
+    margin-right: 25px;
+}
+.header nav.navbar a{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.header nav.navbar a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}

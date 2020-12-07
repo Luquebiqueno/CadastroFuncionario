@@ -1,0 +1,58 @@
+<app-header></app-header>
+
+<div class="main home">
+    <form id="formulario">
+        <h2>Editar</h2>
+
+        <section>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" name="nome" placeholder="Nome" required [(ngModel)]="editavel.nome" >
+        </section>
+    
+        <section>
+            <label for="sobrenome">Sobrenome</label>
+            <br>
+            <input type="text" name="sobrenome" placeholder="Sobrenome" required [(ngModel)]="editavel.sobrenome">
+        </section>
+
+        <section>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Email" [(ngModel)]="editavel.email">
+        </section>
+
+        <section>
+            <label for="sobrenome">Data de nascimento </label>
+            <br>
+
+            <input type="date" name="nascimento" placeholder="Nascimento" >
+        </section>
+        
+        <section class="genero">
+            <p>Qual o seu Genero:</p>
+            <br>
+            <input type="radio" name="sexo" value="masculino">
+            <label for="masuculino">Masculino</label><br>
+            <input type="radio" name="sexo" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" name="sexo" value="outro">
+            <label for="outro">Outro</label>
+        </section>
+
+        <section>
+            <label for="skills">Habilidades:</label>
+            <br>
+            <select class="habilidades">
+                <option value="csharp">CSharp</option>
+                <option value="java">Java</option>
+                <option value="angular">Angular</option>
+                <option value="sql" selected>SQL</option>
+                <option value="asp" selected>ASP</option>
+            </select>    
+        </section>
+        
+        <input type="submit" class="cadastrar" value="Atualizar" name="cadastrar" />
+        </form>
+</div>
+

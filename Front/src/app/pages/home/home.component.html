@@ -1,0 +1,65 @@
+<app-header></app-header>
+
+<div class="main home">
+    <form id="formulario" #formRegister="ngForm" (ngSubmit)="onSubmit(formRegister)">
+        <h2>Cadastro</h2>
+
+        <section>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" ngModel name="nome" placeholder="Nome" required>
+        </section>
+    
+        <section>
+            <label for="sobrenome">Sobrenome</label>
+            <br>
+            <input ngModel type="text" name="sobrenome" placeholder="Sobrenome" required>
+        </section>
+
+        <section>
+            <label for="sobrenome">Email</label>
+            <br>
+            <input ngModel type="email" name="email" placeholder="Email">
+        </section>
+
+        <section>
+            <label for="sobrenome">Data de nascimento </label>
+            <br>
+
+            <input ngModel type="date" name="dataNascimento" placeholder="Nascimento" >
+        </section>
+        
+        <section class="genero">
+            <p>Qual o seu Genero:</p>
+            <br>
+            <input ngModel type="radio" name="sexo" value="Masculino">
+            <label for="masuculino">Masculino</label><br>
+            <input ngModel type="radio" name="sexo" value="Feminino">
+            <label for="feminino">Feminino</label><br>
+            <input ngModel type="radio" name="sexo" value="Outro">
+            <label for="outro">Outro</label>
+        </section>
+
+        <section class="habilidades">
+            <label for="skills">Habilidades:</label>
+            <br>
+            <input ngModel type="radio" name="habilidade" value="csharp">
+            <label for="csharp">csharp</label> <br>
+
+            <input ngModel type="radio" name="habilidade" value="Java">
+            <label for="Java">Java</label> <br>
+
+            <input ngModel type="radio" name="habilidade" value="Angular">
+            <label for="Angular">Angular</label> <br>
+
+            <input ngModel type="radio" name="habilidade" value="SQL">
+            <label for="SQL">SQL</label> <br>
+
+            <input ngModel type="radio" name="habilidade" value="ASP">
+            <label for="ASP">ASP</label>   
+        </section>
+        
+        <input type="submit" class="cadastrar" value="Cadastar" name="cadastrar" />
+        </form>
+</div>
+

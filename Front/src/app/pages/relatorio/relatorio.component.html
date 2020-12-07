@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+<div class="main relatorio">
+    
+    <div class="filtro">
+      <h2>Filtro</h2>
+      <div class="flitro-container">
+        <input type="text" placeholder="Digite o Nome">
+        <input type="number" placeholder="Digite a Idade">
+        <input type="text" placeholder="Digite a Habilidade">
+        <input type="sex" placeholder="Digite o Genero">
+        <button class="filtrarbtn">
+          Pesquisar
+        </button>
+      </div>
+    </div>
+
+    <table class="tabela-funcionarios">
+        <tr>
+          <th>Nome</th>
+          <th>Data de Nascimento</th>
+          <th>Idade</th>
+          <th>Email</th>
+          <th>Sexo</th>
+          <th>Habilidades</th>
+          <th>Ações</th>
+        </tr>
+        <tr *ngFor="let func of funcionario">
+          <td>{{ func.nome }}</td>
+          <td>{{ func.dataNascimento | date: 'dd/MM/yyyy'}}</td>
+          <td>{{ func.idade }}</td>
+          <td>{{ func.email }}</td>
+          <td>{{ func.sexo }}</td>
+          <td>{{ func.habilidade }}</td>
+          <td>
+            <div class="acoes">
+              <button class="button1" *ngIf="func.ativo==false"> Ativar </button>
+              <button class="button2" *ngIf="func.ativo==true"> Inativar </button>
+              <a [routerLink]="['/relatorio', func.id]">
+                <img src="../assets/edit.png" alt="">
+              </a>
+            </div>
+          </td>
+        </tr>
+    </table>
+</div>
